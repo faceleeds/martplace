@@ -22,7 +22,7 @@
       transition: all 0.5s;
       border: 1px solid $blue;
       &:hover {
-          color: $blue;
+        color: $blue;
         background-color: transparent;
       }
     }
@@ -136,9 +136,8 @@
 
   &-input {
     width: 100%;
-    outline: none;
+    outline: transparent;
     padding: 13px 80px 13px 25px;
-    border: none;
     border: 1px solid #d9dfe5;
     border-radius: 35px;
 
@@ -221,3 +220,132 @@
 }
 
 // end header__content
+
+// start search
+
+.main {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -70px;
+  outline: transparent;
+  width: 70%;
+  padding: 40px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.search__input {
+  width: 100%;
+  outline: transparent;
+  padding: 0 25px 0 25px;
+  border: 1px solid #d9dfe5;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: none;
+  line-height: 46px;
+}
+
+.search__box-shadow-one {
+  z-index: 1;
+  position: absolute;
+  height: 20px;
+  width: 68%;
+  background-color: rgba(255, 255, 255, 0.52);
+  opacity: 0.502;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -85px;
+  border-radius: 6px;
+}
+.search__box-shadow-two {
+  position: absolute;
+  height: 35px;
+  width: 66%;
+  background-color: rgba(255, 255, 255, 0.52);
+  opacity: 0.502;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -100px;
+  border-radius: 6px;
+}
+
+select {
+  padding-left: 20px;
+  padding-right: 72px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 16px;
+  line-height: 46px;
+  color: #555555;
+  border-color: #dcdcdc;
+  background-image: url(../images/arrow-search.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right 20px top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.search__input-btn {
+  font-size: 16px;
+  padding: 14px 18px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 0;
+  border-radius: 3px;
+  min-width: 220px;
+}
+
+// end search
+
+// start advantages
+
+.advantages {
+  padding-top: 185px;
+}
+
+.advantages__items {
+  display: flex;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.advantages__item {
+  padding: 50px 44px;
+  border-radius: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  }
+
+  &-pic {
+      min-height: 124px;
+    margin-bottom: 40px;
+  }
+
+  &-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  &-description {
+    color: #555555;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+// end advantages

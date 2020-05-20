@@ -122,8 +122,12 @@
         </div>
 
         <div class="header__content-buttons">
-          <a href="#" class="header__content-button btn-transparent">View All Products</a>
-          <a href="#" class="header__content-button btn-transparent">Popular Products</a>
+          <a href="#" class="header__content-button btn-transparent"
+            >View All Products</a
+          >
+          <a href="#" class="header__content-button btn-transparent"
+            >Popular Products</a
+          >
         </div>
         <!-- /.header__content-buttons -->
         <!-- /.header__content-text -->
@@ -131,20 +135,87 @@
       <!-- /.header__content -->
     </header>
     <!-- /.header -->
-    <!-- <main class="main">
-        <section class="search">
-            <input class="header__search-input"
-                type="search"
-                name="header-search"
-                placeholder="Search product here..."
-              />
-              <button class="header__search-btn">
-                <span class="lnr lnr-magnifier"></span>
-              </button>
+    <main class="main">
+      <section class="search">
+        <input
+          class="search__input"
+          type="search"
+          name="header-search"
+          placeholder="Search your products..."
+        />
+        <select name="search">
+          <option value="" disabled selected>All Categories</option>
+          <option value="plugins">Plugins</option>
+          <option value="WordPress">WordPress</option>
+          <option value="site_template">Site Template</option>
+          <option value="psd_template">PSD Template</option>
+          <option value="joomla">Joomla</option>
+          <option value="user_interface">User Interface</option>
+          <option value="landing_page">Landing Page</option>
+          <option value="software">Software</option>
+        </select>
+        <a href="" class="search__input-btn btn-blue">Search Now</a>
+      </section>
+      <!-- /.search__box -->
+      <div class="search__box-shadow-one"></div>
+      <div class="search__box-shadow-two"></div>
+
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__items">
+            <div class="advantages__item">
+              <div class="advantages__item-pic">
+                <img
+                  src="images/advantages-1.png"
+                  alt="advantages"
+                  class="advantages__item-pic-img"
+                />
+              </div>
+              <div class="advantages__item-title">Best UX Research</div>
+              <p class="advantages__item-description">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet diam congue is
+                laoreet elit metus.
+              </p>
             </div>
-        </section> -->
-        <!-- /.search__box -->
+            <div class="advantages__item">
+              <div class="advantages__item-pic">
+                <img
+                  src="images/advantages-2.png"
+                  alt="advantages"
+                  class="advantages__item-pic-img"
+                />
+              </div>
+              <div class="advantages__item-title">Fully Responsive</div>
+              <p class="advantages__item-description">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet diam congue is
+                laoreet elit metus.
+              </p>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-pic">
+                <img
+                  src="images/advantages-3.png"
+                  alt="advantages"
+                  class="advantages__item-pic-img"
+                />
+              </div>
+              <div class="advantages__item-title">Buy & Sell Easily</div>
+              <p class="advantages__item-description">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet diam congue is
+                laoreet elit metus.
+              </p>
+            </div>
+          </div>
+          <!-- /.advantages__items -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.advantages -->
     </main>
+    <!-- /.main -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>

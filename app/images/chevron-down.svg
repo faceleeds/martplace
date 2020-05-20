@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        fill: #676767;
+        font-family: Linearicons-Free, Linearicons;
+      }
+    </style>
+  </defs>
+  <text id="chevron-down" class="cls-1" x="0.999" y="9">chevron-down</text>
+</svg>
