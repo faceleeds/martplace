@@ -5,7 +5,7 @@
 // start header__top
 
 .header__top {
-  background-color: $bg-grey;
+  background-color: #eef1f3;
 
   &-inner {
     height: 100px;
@@ -332,7 +332,7 @@ select {
   }
 
   &-pic {
-      min-height: 124px;
+    min-height: 124px;
     margin-bottom: 40px;
   }
 
@@ -349,3 +349,121 @@ select {
 }
 
 // end advantages
+
+// start slider__weekly
+
+.slider__weekly {
+  background-color: $bg-grey;
+  padding-top: 120px;
+}
+
+.slider__weekly-top {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  padding: 42px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+  &-title {
+    font-size: 30px;
+  }
+
+  &-arrows {
+    background-color: $purple;
+    color: #fff;
+    border-radius: 22px;
+    padding: 15px 25px;
+  }
+}
+
+.lnr-chevron-left {
+  margin-right: 43px;
+}
+
+.lnr-chevron-left,
+.lnr-chevron-right {
+  color: #fff;
+  font-size: 14px;
+}
+
+.slider__weekly-item {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  display: flex;
+}
+
+.slider__weekly-item-content {
+  padding: 50px 50px 25px 50px;
+
+  &-title {
+    font-size: 24px;
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+
+.slider__weekly-item-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.slider__weekly-item-author-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  .author-name {
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+.slider__weekly-item-author-products {
+  display: flex;
+
+  .author-products-title {
+    margin-left: 10px;
+    color: #7347c1;
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+.slider__weekly-item-content-text {
+  color: #555555;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.slider__weekly-item-tags {
+    margin-bottom: 44px;
+    
+}
+
+.slider__weekly-item-tag {
+  background-color: #f1f3f6;
+  color: #868c96;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 15px;
+  padding: 9px 17px;
+  
+}
+
+.slider__weekly-item-tag + .slider__weekly-item-tag {
+  margin-left: 7px;
+}
+
+.slider__weekly-details {
+    border-top: 1px solid #000;
+}
+
+// end slider__weekly
