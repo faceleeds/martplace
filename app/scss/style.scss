@@ -444,8 +444,7 @@ select {
 }
 
 .slider__weekly-item-tags {
-    margin-bottom: 44px;
-    
+  margin-bottom: 44px;
 }
 
 .slider__weekly-item-tag {
@@ -455,7 +454,6 @@ select {
   line-height: 30px;
   border-radius: 15px;
   padding: 9px 17px;
-  
 }
 
 .slider__weekly-item-tag + .slider__weekly-item-tag {
@@ -463,7 +461,53 @@ select {
 }
 
 .slider__weekly-details {
-    border-top: 1px solid #000;
+  border-top: 1px solid #ececec;
+  display: flex;
+  padding-top: 23px;
+  align-items: center;
+  font-size: 15px;
+
+  .weekly-details-price {
+    background-color: #0674ec;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 36px;
+    margin-right: 20px;
+  }
+
+  .status-item-icon {
+    margin-right: 10px;
+  }
+
+  .weekly-details-status {
+    display: flex;
+  }
+
+  .weekly-details-status-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .lnr-heart {
+    color: #555555;
+  }
+
+  .count-like {
+    color: #7347c1;
+  }
+
+  .lnr-cart,
+  .count-cart {
+    color: #0674ec;
+  }
+
+  .weekly-details-status-item + .weekly-details-status-item {
+    margin-left: 20px;
+  }
+
+  .slider__weekly-details-rating {
+    margin-left: auto;
+  }
 }
 
 // end slider__weekly
