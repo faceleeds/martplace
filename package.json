@@ -19,7 +19,9 @@
     "gulp-uglify": "^3.0.2",
     "magnific-popup": "^1.1.0",
     "normalize.css": "^8.0.1",
-    "slick-carousel": "^1.8.1"
+    "rateyo": "^2.3.5",
+    "slick-carousel": "^1.8.1",
+    "slick-slider": "^1.8.2"
   },
   "dependencies": {
     "gulp-autoprefixer": "^7.0.1"

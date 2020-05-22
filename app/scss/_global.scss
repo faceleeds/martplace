@@ -1,59 +1,72 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  a {
-    display: inline-block;
-  }
-  
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  body {
-    font-family: "Quicksand-Regular", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: #fff;
-  }
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-  a {
-      display: inline-block;
-      text-decoration: none;
-  }
-  
-  .container {
-      max-width: 1160px;
-      margin: 0 auto;
-      padding: 0 15px;
-  }
+a {
+  display: inline-block;
+}
 
-  .btn-blue {
-    background-color: $blue;
-    color: #fff;
-    border-radius: 36px;
-    padding: 12px 18px;
-    font-size: 14px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
-    
-  }
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .btn-transparent {
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 36px;
-    padding: 12px 18px;
-    font-size: 14px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
-    
-  }
-  
+body {
+  font-family: "Quicksand-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn-blue {
+  background-color: $blue;
+  color: #fff;
+  border-radius: 36px;
+  padding: 12px 18px;
+  font-size: 14px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 36px;
+  padding: 12px 18px;
+  font-size: 14px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.top-block {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  padding: 42px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-block-title {
+  font-size: 30px;
+}
+
+
