@@ -361,8 +361,6 @@ select {
   padding-bottom: 120px;
 }
 
-
-
 .slider__weekly-top {
   // background-color: #fff;
   // border-radius: 4px;
@@ -386,10 +384,10 @@ select {
 }
 
 .slick-prev.slick-arrow {
-    position: absolute;
-    top: -125px;
-    right: 116px;
-    z-index: 5;
+  position: absolute;
+  top: -125px;
+  right: 116px;
+  z-index: 5;
 }
 
 .slick-next.slick-arrow {
@@ -531,7 +529,6 @@ select {
 
 // end slider__weekly
 
-
 // start products
 
 .products {
@@ -539,10 +536,110 @@ select {
 
   .products__inner {
     padding-top: 120px;
+    padding-bottom: 30px;
+  }
+
+  .products__inner-top {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .products__inner-top-filter {
+    color: #747b86;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 25px;
   }
 }
 
+.inner-top-filter-dots {
+  cursor: pointer;
+}
+
+.inner-top-filter-items {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: -145%;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+  margin-right: 7px;
+  min-width: 170px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 18px 8px;
+    border-color: transparent transparent #fff transparent;
+    top: -10px;
+    right: 17px;
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+  }
+}
+
+.show {
+  display: block;
+}
+
+.inner-top-filter-dot {
+  background: none repeat scroll 0 0 #a3b1c4;
+  height: 3px;
+  width: 3px;
+  line-height: 0;
+  list-style: none outside none;
+  margin-top: 3px;
+  vertical-align: top;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.inner-top-filter-link {
+  transition: all 0.3s;
+  color: inherit;
+  color: #747b86;
+  font-size: 15px;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.inner-top-filter-link:hover {
+  color: #0674ec;
+}
+
+.inner-top-filter-link + .inner-top-filter-link {
+  padding-top: 15px;
+}
+
+.inner-top-filter-link {
+  display: block;
+}
+
+.products-category-items {
+  padding: 30px;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.products-category-item {
+  background-color: #f1f3f6;
+  color: #868c96;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 15px;
+  padding: 9px 17px;
+  transition: all 0.3s;
+}
+
+.products-category-item:hover {
+  background-color: #0674ec;
+  color: #fff;
+}
+
 // end products
-
-
-

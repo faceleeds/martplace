@@ -16,3 +16,21 @@ $(function(){
       });
 
 });
+
+function showDropdown() {
+  document.getElementById("filter_menu").classList.toggle("show");
+}
+
+// Outside close
+window.onclick = function(event) {
+  if (!event.target.matches('.inner-top-filter-dots')) {
+      var dropdowns = document.getElementsByClassName("inner-top-filter-items");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+          }
+      }
+  }
+}
