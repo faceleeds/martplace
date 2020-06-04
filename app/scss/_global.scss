@@ -11,11 +11,19 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.lnr {
+  color: #7e8fa1; 
 }
 
 body {
