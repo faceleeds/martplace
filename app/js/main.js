@@ -34,3 +34,7 @@ window.onclick = function(event) {
       }
   }
 }
+
+$(function(){
+  var mixer = mixitup('.product-cards');
+});

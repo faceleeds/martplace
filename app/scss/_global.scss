@@ -36,6 +36,10 @@ a {
   padding: 0 15px;
 }
 
+:focus {
+  // outline: inherit;  как правильно оформить?
+}
+
 .btn-blue {
   background-color: $blue;
   color: #fff;
